@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assests/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+
+body {
+    font-family: "Montserrat";
+    font-size: 1em;
+}
+
+a
+{
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-item-link
+{
+   margin-left: 3.4em;
+}
+
+.blue-button
+{
+    font-family: "Montserrat";
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 87px;
+    margin-left: 1.3em;
+}
+
+/* Header */
+.header-list
+{
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;    
+    right: 0;
+    z-index: 10;
+}
+
+.menu-list
+{
+    display: flex;
+    align-items: center;
+}
+
+.first-screen
+{
+    background-image: url('./assests/images/main-screen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.first-screen-container
+{
+    width: 50%;
+    padding: 6.56rem;
+}
+
+.main-title
+{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 4.06em;
+    font-weight: 800;
+    line-height: 3.740625rem;
+}
+
+.main-decription
+{
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-top: 1.0234375em;
+    line-height: 1.5rem;
+}
+
+.white-button
+{
+    background-color: #FFFFFF;
+    border: 0px solid #FFFFFF;
+    margin: 1.3125em 0em;
+    width: 16.5em;
+    height: 3.6875em;   
+}
+
+.description-title
+{
+    margin: 10em 4.4375em;
+}
+
+.description-title-block
+{
+    font-size: 3.75em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 4.5rem;
+}
+
+.description-words
+{
+    font-size: 1.6875em;
+    text-transform: none;
+    line-height: 2.025em;
+}
+
+.description-alt
+{
+    font-size: 1.25em;
+    line-height: 0em;
+    text-transform: none;
+    color: #73A6B1;
+}
+
+.description-screen
+{
+    margin-bottom: 8em;
+    padding: 5vw;
+}
+
+.description-card
+{
+    padding: 2em 3.875em;
+}
+
+.description-block
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1FDFF;
+    padding: 2vh 3vw;
+    border-radius: 10px;
+}
+
+.flex-wrapper
+{
+    padding: 0em 4.4375em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc-header
+{
+    font-size: 2.875em;
+    text-transform: uppercase;
+}
+
+.desc-text
+{
+    padding-top: 0.6em;
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 1.31em 2.18em 12em;
+}
+
+.button-container .blue-button
+{
+    border: 0px solid #FFFFFF;
+}
+
+.flex-wrapper .desc-header
+{
+    line-height: 3.45rem;
+}
+
+.flex-wrapper .desc-text
+{
+    line-height: 1.5rem;
+}
+
+.childrens
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2vh 3vw;
+}
+
+.chil-text
+{
+    position: relative;
+    width: 40em;
+    font-size: 1.7em;
+    padding-left: 3.43em;
+    line-height: 2.04rem;
+}
+
+.wrapper
+{
+    position: relative;
+}
+
+.children-embrace
+{
+    position: relative;
+    left: 30em;
+    top: -16em;
+    z-index: 3;
+}
+
+.childrens-background
+{
+    position: absolute;
+    width: 150%;
+    left: 22em;
+    top: -6.15em;
+    z-index: 2;
+}
+
+.children-block
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 92.4rem;
+    height: 19.5em;
+    background-color: #F1FDFF;
+}
+
+.help-screen
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0em 4.43em;
+}
+
+.description-title-block
+{
+    margin: 0.93rem;
+}
+
+.help-screen .description-words
+{
+    margin-top: 1.5em;
+    margin-bottom: 1.06rem;
+}
+
+.animated-number
+{
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 4.5rem;
+    margin: 0.93rem;
+}
+
+.contacts-screen
+{
+    margin-top: 1.125em;
+    background-color: #F9FADF;
+    padding: 3.1em 4.4em 10em;
+}
+
+.contacts-screen .description-title-block
+{
+    display: inline;
+    padding: 0em 10rem;
+    margin-right: 13rem;
+}
+
+.contacts-phone
+{
+    display: inline-block;
+    padding: 3.12em 4.43em 0em;
+}
+
+.contacts-phone .main-decription
+{
+    margin-top: 0.56em;
+    padding-bottom: 3.56em;
+}
+
+.main-decription-number
+{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.font-number
+{
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 3.56em;
+}
+
+.article-number {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contacts-images
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contacts-input {
+    font-size: 1.25rem;
+    font-family: Montserrat;
+    background-color: #F9FADF;
+    width: 5.90rem;
+    height: 1.25rem;
+    padding: 1.31rem 25rem 1.31rem 2.68rem;
+    border-radius: 61px;
+    margin-top: 1.29166667rem;
+    border: 0px solid #FFFFFF;
+}
+
+.contacts-mail-screen
+{
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-mail
+{
+    display: flex;
+    width: 81.12em;
+    height: 32.06em;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 3.75em;
+}
+
+.contacts-mail-input
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+.contacts-mail img
+{
+    width: 33.81rem;
+    height: 21.75rem;
+}
+
+.contacts-mail .description-words
+{
+    line-height: 2.02rem;
+}
+
+.contacts-mail-input .blue-button
+{
+    border: 0px solid #FFFFFF;
+    margin-top: 1.29rem;
+    width: 33.81rem;
+    margin-left: 0em;
+}
+
+@media screen and (max-width: 600px)
+{
+    .description-block
+    {
+        flex-direction: column;
+    }
+    .childrens
+    {
+        flex-direction: column;
+    }
+}
